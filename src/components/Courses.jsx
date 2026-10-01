@@ -7,7 +7,7 @@ function CourseCard({ c }) {
   return (
     <article className="card course">
       <div className="thumb">
-        <Photo hue={c.hue} alt={c.title} />
+        <Photo  hue={c.hue} alt={c.title} />
         <div className="chips"><span>{c.lessons} Lessons</span><span>{c.duration}</span><span>{c.comments} Comments</span></div>
       </div>
       <div className="row"><h3>{c.title}</h3><Rating value={c.rating} /></div>
@@ -23,7 +23,7 @@ export default function Courses() {
   return (
     <section className="section container" id="courses">
       <SectionHead title={<>Discover Your Passion,<br />Build Your Skills</>} text="At Bytespace Courses, we bring you closer to life-changing knowledge. Explore a variety of courses across different fields, from technology to the arts, and make a difference in your career and life." />
-      <div className="pills" role="tablist">
+      <div className="pills" role="tablist" >
         {pills.map((p) => <button key={p} role="tab" aria-selected={p === active} className={p === active ? "on" : ""} onClick={() => setActive(p)}>{p}</button>)}
         <a href="#courses" className="more">+ More</a>
       </div>
