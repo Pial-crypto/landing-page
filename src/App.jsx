@@ -5,15 +5,23 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Logos from './components/Logos'
+import Courses from './components/Courses'
 
 function App() {
   
 
   return (
     <>
-    <header className="hero-wrap grid-bg"></header>
+    <header className="hero-wrap grid-bg">
     <Navbar></Navbar>
     <Hero></Hero>
+    </header>
+    <main>
+      <Logos></Logos>
+      <Courses></Courses>
+    
+    </main>
     </>
   )
 }
