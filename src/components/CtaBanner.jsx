@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "./ui";
 
 export default function CtaBanner() {
@@ -7,7 +8,7 @@ export default function CtaBanner() {
       <div className="container cta-body">
         <h2>Unlock Your Potential as a<br />Creator with ByteSpace</h2>
         <p>Experience the collaboration of numerous creators and an expanding selection of courses. Register now and become a part of a community comprising over 10,000 local and international creators. Utilize our Course Editor, and showcase your expertise by publishing your finest course on the ByteSpace Course Library.</p>
-        <Button className="lime">Join as Creator</Button>
+        <Link to="/signup"><Button className="lime">Join as Creator</Button></Link>
       </div>
     </section>
   );

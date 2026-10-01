@@ -1,4 +1,5 @@
 import { ShoppingBag } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Logo } from "./ui";
 
 export default function Navbar() {
@@ -11,7 +12,7 @@ export default function Navbar() {
         <li><a href="#creators">Creators</a></li>
       </ul>
       <div className="nav-actions">
-        <a href="#signin">Sign In</a><a href="#join">Join Us</a>
+        <Link to="/login">Sign In</Link><Link to="/signup">Join Us</Link>
         <button aria-label="Cart" className="icon-btn"><ShoppingBag size={22} /></button>
       </div>
     </nav>

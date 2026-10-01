@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 import { Button, Photo, Avatars } from "./ui";
 import image from "../assets/image.png";
+
 export default function Hero() {
   return (
     <section className="hero container">
@@ -13,7 +14,7 @@ export default function Hero() {
       </form>
       <div className="hero-stage">
         <div className="arc" />
-        <Photo src={image} className="hero-person" hue={25} alt="Smiling student with headphones and laptop" />
+        <Photo className="hero-person" src={image} hue={25} alt="Smiling student with headphones and laptop" />
         <div className="float f-topic"><b>UI/UX Design</b><small>200 Courses • 1000+ Students</small></div>
         <div className="float f-progress"><small>Learning Progress</small><strong>55%</strong><span className="bar"><i style={{ width: "42%" }} /></span></div>
         <div className="float f-happy"><b>Happy Students</b><small>4.5 (240) ★</small><Avatars count="2K+" n={7} /></div>
