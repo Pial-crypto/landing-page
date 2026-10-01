@@ -11,7 +11,6 @@
 .section-head h2,.h2-left{font-size:clamp(32px,4vw,52px);line-height:1.25;font-weight:600}
 .section-head p,.body-lg{color:var(--muted);font-size:20px;margin-top:20px}
 .logos{background:var(--soft);padding:90px 0}.logos-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
-
 .hero{position:relative;text-align:center;padding:50px 0 0}
 .hero h1{font-size:clamp(38px,6.4vw,84px);line-height:1.15;font-weight:600;position:relative}
 
