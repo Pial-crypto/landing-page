@@ -12,6 +12,7 @@ import Growth from './components/Growth'
 import Creator from './components/Creator'
 import CtaBanner from './components/CtaBanner'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -30,8 +31,9 @@ function App() {
       <Creator></Creator>
       <CtaBanner></CtaBanner>
     <Testimonials></Testimonials>
-    
+  
     </main>
+      <Footer></Footer>
     </>
   )
 }
