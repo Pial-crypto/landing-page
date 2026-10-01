@@ -10,6 +10,7 @@ import Courses from './components/Courses'
 import Categories from './components/Categories'
 import Growth from './components/Growth'
 import Creator from './components/Creator'
+import CtaBanner from './components/CtaBanner'
 
 function App() {
   
@@ -26,6 +27,8 @@ function App() {
       <Categories></Categories>
       <Growth></Growth>
       <Creator></Creator>
+      <CtaBanner></CtaBanner>
+    
     
     </main>
     </>
