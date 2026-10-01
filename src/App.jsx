@@ -1,32 +1,17 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Logos from "./components/Logos";
-import Courses from "./components/Courses";
-import Categories from "./components/Categories";
-import Growth from "./components/Growth";
-import Creator from "./components/Creator";
-import CtaBanner from "./components/CtaBanner";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+// import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 
 export default function App() {
   return (
-    <>
-      <header className="hero-wrap grid-bg">
-        <Navbar />
-        <Hero />
-      </header>
-      <main>
-        <Logos />
-        <Courses />
-        <Categories />
-        <Growth />
-        <Creator />
-        <CtaBanner />
-        <Testimonials />
-      </main>
-       
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
