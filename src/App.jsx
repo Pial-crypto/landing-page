@@ -11,6 +11,7 @@ import Categories from './components/Categories'
 import Growth from './components/Growth'
 import Creator from './components/Creator'
 import CtaBanner from './components/CtaBanner'
+import Testimonials from './components/Testimonials'
 
 function App() {
   
@@ -28,7 +29,7 @@ function App() {
       <Growth></Growth>
       <Creator></Creator>
       <CtaBanner></CtaBanner>
-    
+    <Testimonials></Testimonials>
     
     </main>
     </>

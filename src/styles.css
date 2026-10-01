@@ -56,7 +56,11 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .logo{display:flex;align-items:center;gap:8px;color:#fff}.logo span{font-size:27px;font-weight:600}.logo-dark{color:var(--ink)}
 .ph{background:linear-gradient(135deg,hsl(var(--h) 60% 62%),hsl(calc(var(--h) + 40) 55% 40%))}
 .shape{position:absolute;display:block;pointer-events:none}
-
+.soft-bg{background:radial-gradient(circle at 25% 15%,#e9fb90,transparent 40%),radial-gradient(circle at 95% 95%,#c4d3f5,transparent 40%),#f9f9fa;padding:110px 0;overflow:hidden}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.stats{display:flex;gap:56px;margin-top:50px}.stats dt{font:500 46px Poppins;color:var(--blue)}.stats dd{color:#555}
+.collage{position:relative;min-height:520px}
+.mini{position:absolute;left:0;top:20px;width:min(470px,100%);padding:20px}.mini .ph{height:244px;border-radius:20px}.mini h3{margin-top:18px;font-weight:500;font-size:25px}
 .flip .collage{order:0}.perks{display:grid;gap:22px;margin-top:40px;font-size:22px}.perks li{display:flex;gap:12px;align-items:center}
 .blue-card{background:var(--blue);color:#fff;left:0;width:290px}.blue-card strong{font-size:30px}.blue-card em{background:var(--lime);color:var(--ink);font-style:normal;font-size:13px;padding:2px 12px;border-radius:99px;justify-self:start}
 .c1{top:30px}.c2{top:210px;width:240px}.flip .collage-person{left:20%;right:auto}.flip .f-happy{left:42%;bottom:20px}
