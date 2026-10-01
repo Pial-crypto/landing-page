@@ -11,3 +11,16 @@
 .section-head h2,.h2-left{font-size:clamp(32px,4vw,52px);line-height:1.25;font-weight:600}
 .section-head p,.body-lg{color:var(--muted);font-size:20px;margin-top:20px}
 .logos{background:var(--soft);padding:90px 0}.logos-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}
+
+.hero{position:relative;text-align:center;padding:50px 0 0}
+.hero h1{font-size:clamp(38px,6.4vw,84px);line-height:1.15;font-weight:600;position:relative}
+
+.squiggle-l{left:-40px;top:130px;width:260px;height:340px;background:repeating-linear-gradient(160deg,var(--lime) 0 52px,transparent 52px 72px);border-radius:60px;transform:rotate(-8deg)}
+.squiggle-w{left:15%;top:410px;width:130px;height:130px;background:repeating-linear-gradient(160deg,#fff 0 22px,transparent 22px 36px);border-radius:30px;transform:rotate(-12deg)}
+
+:root{--blue:#0039e6;--lime:#d4fb1e;--ink:#0b0b1a;--muted:#8a8a96;--soft:#f4f4f5;--line:#e4e4e8;--r:28px}
+*{box-sizing:border-box;margin:0}
+
+.hero-stage{position:relative;height:560px;margin-top:20px}
+.arc{position:absolute;left:50%;bottom:-300px;width:1400px;max-width:130%;aspect-ratio:1;transform:translateX(-50%);background:#ccff00;border-radius:50%}
+.hero-person{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:420px;height:520px;border-radius:200px 200px 0 0}

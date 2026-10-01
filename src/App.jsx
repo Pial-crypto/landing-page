@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <>
     <header className="hero-wrap grid-bg"></header>
     <Navbar></Navbar>
+    <Hero></Hero>
     </>
   )
 }
