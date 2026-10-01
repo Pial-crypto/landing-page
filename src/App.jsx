@@ -9,6 +9,7 @@ import Logos from './components/Logos'
 import Courses from './components/Courses'
 import Categories from './components/Categories'
 import Growth from './components/Growth'
+import Creator from './components/Creator'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
       <Courses></Courses>
       <Categories></Categories>
       <Growth></Growth>
+      <Creator></Creator>
     
     </main>
     </>
