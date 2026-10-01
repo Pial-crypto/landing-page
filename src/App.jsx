@@ -7,6 +7,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Logos from './components/Logos'
 import Courses from './components/Courses'
+import Categories from './components/Categories'
+import Growth from './components/Growth'
 
 function App() {
   
@@ -20,6 +22,8 @@ function App() {
     <main>
       <Logos></Logos>
       <Courses></Courses>
+      <Categories></Categories>
+      <Growth></Growth>
     
     </main>
     </>

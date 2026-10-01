@@ -38,6 +38,11 @@
 .price{margin-top:18px;font-size:16px;color:#555}.price b{font-size:28px;color:var(--blue);font-weight:500}
 .cats{display:grid;grid-template-columns:repeat(6,1fr);gap:24px}
 .cat{display:grid;justify-items:center;gap:18px;padding:42px 12px 36px;font-size:22px;text-align:center}
+.collage{position:relative;min-height:520px}
+.mini{position:absolute;left:0;top:20px;width:min(470px,100%);padding:20px}.mini .ph{height:244px;border-radius:20px}.mini h3{margin-top:18px;font-weight:500;font-size:25px}
+.collage-person{position:absolute;right:6%;bottom:0;width:340px;height:480px;border-radius:170px 170px 0 0}
+.collage .f-progress{right:0;top:260px;width:290px}
+.squiggle-c{right:8%;top:30px;width:140px;height:210px;background:repeating-linear-gradient(165deg,var(--lime) 0 34px,transparent 34px 52px);border-radius:50px;transform:rotate(10deg);z-index:1}
 @media(max-width:1000px){
  .grid-3{grid-template-columns:1fr 1fr}.cats{grid-template-columns:repeat(3,1fr)}.split,.footer-top{grid-template-columns:1fr}
  .nav-links{display:none}.f-topic,.f-happy,.shape.cyl-r,.shape.tri-w{display:none}.f-progress{right:2%}.flip .collage{order:2}
@@ -46,5 +51,7 @@
  .grid-3,.cats{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:1fr}.nav-actions a{display:none}
  .search{flex-direction:column;gap:14px}.hero-person{width:300px;height:400px}.hero-stage{height:430px}.f-progress{display:none}
  .stats{gap:28px}.collage-person{width:260px;height:380px}.fcols{grid-template-columns:1fr 1fr}.partner{font-size:22px}
+
+ 
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
